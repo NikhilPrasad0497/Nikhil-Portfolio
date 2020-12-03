@@ -3,7 +3,7 @@
 :root{
     --primary-color:#38BDF8 ;
     --off-white: #F3F4F6;
-    --dark-gray: #9CA3AF;
+    --dark-gray:#64748B;
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -75,4 +75,21 @@ hr {
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/* Header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
 }
